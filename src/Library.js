@@ -1,5 +1,6 @@
 import React from 'react'
 import PouchDB from 'pouchdb'
+import Button from '@material-ui/core/Button'
 
 class Library extends React.Component{
     constructor(props){
@@ -14,7 +15,9 @@ class Library extends React.Component{
         
         return (
             <div>
-                LIBRARY
+                LIBRARY<br/>
+
+                <Button variant='contained' color='primary'>START</Button>
             </div>
         )
     }
