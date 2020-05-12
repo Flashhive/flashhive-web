@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flashhive>
+    <deckinfo>
+        <name>
+            Dummy Deck
+        </name>
+        <createdDate>
+            2020-05-12
+        </createdDate>
+    </deckinfo>
+    <deckbody>
+        <card>
+            <question>
+                Card A
+            </question>
+            <answer>
+                This is Card A
+            </answer>
+        </card>
+        <card>
+            <question>
+                Card B
+            </question>
+            <answer>
+                This is Card B
+            </answer>
+        </card>
+        <card>
+            <question>
+                Card C
+            </question>
+            <answer>
+                This is Card C
+            </answer>
+        </card>
+    </deckbody>
+</flashhive>
