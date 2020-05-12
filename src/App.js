@@ -21,13 +21,13 @@ class App extends React.Component{
 
   render(){
     let page = null
-    if (this.state.page == 'title'){
+    if (this.state.page === 'title'){
       page = <Library />
-    }else if (this.state.page == 'create-deck'){
+    }else if (this.state.page === 'create-deck'){
       page = <CreateDeck />
-    }else if (this.state.page == 'view-deck'){
+    }else if (this.state.page === 'view-deck'){
       page = <ViewDeck />
-    }else if (this.state.page == 'setting'){
+    }else if (this.state.page === 'setting'){
       page = <Setting />
     }else{
       page = (

@@ -4,6 +4,9 @@
         <name>
             Dummy Deck
         </name>
+        <id>
+            dummy-deck
+        </id>
         <createdDate>
             2020-05-12
         </createdDate>
