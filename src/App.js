@@ -1,4 +1,5 @@
 import React from 'react'
+import RootContainer from './RootContainer'
 import Library from './Library'
 import CreateDeck from './CreateDeck'
 import ViewDeck from './ViewDeck'
@@ -13,7 +14,7 @@ class App extends React.Component{
     }
   }
 
-  goToPage(page){
+  goToPage = (page)=>{
     this.setState({
       page: page
     })
@@ -41,9 +42,9 @@ class App extends React.Component{
     }
 
     return (
-      <div className="App">
+      <RootContainer goToPage={this.goToPage}> 
         {page}
-      </div>
+      </RootContainer>
     )
   }
 }
